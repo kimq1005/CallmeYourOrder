@@ -79,6 +79,8 @@ class RealMenu_Adapter:RecyclerView.Adapter<RealMenu_Adapter.RealMenuViewHolder>
                 val intent = Intent(itemView?.context,GoOrderPage::class.java)
                 intent.putExtra("no",111)
                 ContextCompat.startActivity(itemView?.context,intent,null)
+
+                //이주석을 받아라
             }
 
 
