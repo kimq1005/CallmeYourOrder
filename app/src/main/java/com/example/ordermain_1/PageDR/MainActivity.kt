@@ -16,6 +16,7 @@ class MainActivity : AppCompatActivity() {
         main_camerlogo.setOnClickListener {
             QRscan()
         }
+        //주석주석
 
         next.setOnClickListener {
             val intent =Intent(this, MenuPageUI::class.java)
