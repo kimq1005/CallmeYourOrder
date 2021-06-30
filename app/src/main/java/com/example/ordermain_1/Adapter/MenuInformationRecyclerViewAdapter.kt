@@ -40,6 +40,7 @@ class MenuInformationRecyclerViewAdapter:RecyclerView.Adapter<MenuInformationRec
             itemView.menu_price_txt.text=menuinforitem.price
             itemView.menu_howsell_txt.text = menuinforitem.howsell
             itemView.menu_cooktime_txt.text = menuinforitem.cooktime
+
         }
     }
 

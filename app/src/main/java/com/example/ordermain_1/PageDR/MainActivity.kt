@@ -14,7 +14,9 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         main_camerlogo.setOnClickListener {
+
             QRscan()
+
         }
         //주석주석
 
@@ -22,6 +24,7 @@ class MainActivity : AppCompatActivity() {
             val intent =Intent(this, MenuPageUI::class.java)
             startActivity(intent)
         }
+
     }
 
         private fun QRscan() {
@@ -32,6 +35,7 @@ class MainActivity : AppCompatActivity() {
         integrator.setBeepEnabled(false)    //소리낼지말지
         integrator.setBarcodeImageEnabled(true) //이미지
         integrator.initiateScan()
+
     }
 
 
