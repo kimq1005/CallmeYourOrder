@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".RealMain">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:hapticFeedbackEnabled="false"
+        android:text="로아왕"
+        android:textSize="30dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/GoEverybtn"
+            android:layout_marginRight="15dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:backgroundTint="#000000"
+            android:text="일퀘 주캐"/>
+
+        <Button
+            android:id="@+id/GoGakIn"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:backgroundTint="#000000"
+            android:text="각인 도구"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
